@@ -1,0 +1,28 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "url",
+      "check": "String"
+    },
+    {
+      "type": "input_value",
+      "name": "elementID",
+      "check": "String"
+    }
+  ],
+  "inputsInline": true,
+  "output": "String",
+  "colour": "#0ab2a3",
+  "mcreator": {
+    "toolbox_id": "hashmapcategory",
+    "toolbox_init": [
+      "<value name=\"url\"><block type=\"text\"><field name=\"TEXT\">https://google.com</field></block></value>",
+      "<value name=\"elementID\"><block type=\"text\"><field name=\"TEXT\">myElementID</field></block></value>"
+    ],
+    "inputs": [
+      "url",
+      "elementID"
+    ]
+  }
+}

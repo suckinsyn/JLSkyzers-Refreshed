@@ -1,0 +1,27 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "currBlock",
+      "check": "MCItemBlock"
+    }
+  ],
+  "inputsInline": true,
+  "output": "Boolean",
+  "colour": "#7c0e0e",
+  "mcreator": {
+    "toolbox_id": "base",
+    "toolbox_init": [
+      "<value name=\"currBlock\"><block type=\"mcitem_allblocks\"><field name=\"value\"></field></block></value>"
+    ],
+    "inputs": [
+      "currBlock"
+    ],
+    "dependencies": [
+      {
+        "name": "world",
+        "type": "world"
+      }
+    ]
+  }
+}

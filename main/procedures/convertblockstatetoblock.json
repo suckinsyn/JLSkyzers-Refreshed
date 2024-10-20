@@ -1,0 +1,21 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "blockstate",
+      "check": "MCItemBlock"
+    }
+  ],
+  "inputsInline": true,
+  "output": "MCItemBlock",
+  "colour": "#7c0e0e",
+  "mcreator": {
+    "toolbox_id": "base",
+    "toolbox_init": [
+      "<value name=\"blockstate\"><block type=\"mcitem_allblocks\"><field name=\"value\"></field></block></value>"
+    ],
+    "inputs": [
+      "blockstate"
+    ]
+  }
+}

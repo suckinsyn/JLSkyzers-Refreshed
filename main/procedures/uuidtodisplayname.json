@@ -1,0 +1,27 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "uuid",
+      "check": "String"
+    }
+  ],
+  "inputsInline": true,
+  "output": "String",
+  "colour": "#7c0e0e",
+  "mcreator": {
+    "toolbox_id": "base",
+    "toolbox_init": [
+      "<value name=\"uuid\"><block type=\"text\"><field name=\"TEXT\">text</field></block></value>"
+    ],
+    "inputs": [
+      "uuid"
+    ],
+    "dependencies": [
+      {
+        "name": "world",
+        "type": "world"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "skyzersplugin",
+  "weight": 30,
+  "minversion": 0,
+  "supportedversions": [
+    2024003
+  ]
+,
+  "info": {
+    "name": "JLSkyzers Refreshed",
+    "version": "1.0",
+    "description": "This is JLSkyzers plugin updated for newer version.",
+    "author": "Van",
+    "credits": "Skyzers, Van"
+  }
+}

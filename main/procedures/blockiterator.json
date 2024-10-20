@@ -1,0 +1,18 @@
+{
+  "args0": [
+  ],
+  "inputsInline": true,
+  "output": "MCItemBlock",
+  "colour": "#7c0e0e",
+  "mcreator": {
+    "toolbox_id": "base",
+    "toolbox_init": [
+    ],
+    "dependencies": [
+      {
+        "name": "world",
+        "type": "world"
+      }
+    ]
+  }
+}

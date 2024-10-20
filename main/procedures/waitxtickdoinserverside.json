@@ -1,0 +1,38 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "tick",
+      "check": "Number"
+    },
+    {
+      "type": "input_statement",
+      "name": "execute"
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": "#7c0e0e",
+  "mcreator": {
+    "toolbox_id": "base",
+    "toolbox_init": [
+      "<value name=\"tick\"><block type=\"math_number\"><field name=\"NUM\">20</field></block></value>"
+    ],
+    "inputs": [
+      "tick"
+    ],
+    "statements": [
+      {
+        "name": "execute",
+        "disable_local_variables": false
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "world",
+        "type": "world"
+      }
+    ]
+  }
+}

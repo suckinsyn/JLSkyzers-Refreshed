@@ -1,0 +1,22 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "path",
+      "check": "String"
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": "#7c0e0e",
+  "mcreator": {
+    "toolbox_id": "base",
+    "toolbox_init": [
+      "<value name=\"path\"><block type=\"text\"><field name=\"TEXT\">my/file/path.extension</field></block></value>"
+    ],
+    "inputs": [
+      "path"
+    ]
+  }
+}

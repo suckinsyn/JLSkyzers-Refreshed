@@ -1,0 +1,63 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "player",
+      "check": "Entity"
+    },
+    {
+      "type": "input_value",
+      "name": "subtitle",
+      "check": "String"
+    },
+    {
+      "type": "input_value",
+      "name": "fadein",
+      "check": "Number"
+    },
+    {
+      "type": "input_value",
+      "name": "duration",
+      "check": "Number"
+    },
+    {
+      "type": "input_value",
+      "name": "fadeout",
+      "check": "Number"
+    },
+    {
+      "type": "input_value",
+      "name": "title",
+      "check": "String"
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": "#7c0e0e",
+  "mcreator": {
+    "toolbox_id": "base",
+    "toolbox_init": [
+      "<value name=\"player\"><block type=\"entity_from_deps\"></block></value>",
+      "<value name=\"subtitle\"><block type=\"text\"><field name=\"TEXT\">The subtitle</field></block></value>",
+      "<value name=\"fadein\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value>",
+      "<value name=\"duration\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value>",
+      "<value name=\"fadeout\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value>",
+      "<value name=\"title\"><block type=\"text\"><field name=\"TEXT\">The title</field></block></value>"
+    ],
+    "inputs": [
+      "player",
+      "subtitle",
+      "fadein",
+      "duration",
+      "fadeout",
+      "title"
+    ],
+    "dependencies": [
+      {
+        "name": "world",
+        "type": "world"
+      }
+    ]
+  }
+}

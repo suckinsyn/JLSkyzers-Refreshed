@@ -1,0 +1,21 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "fileIterrator",
+      "check": "String"
+    }
+  ],
+  "inputsInline": true,
+  "output": "String",
+  "colour": "#7c0e0e",
+  "mcreator": {
+    "toolbox_id": "base",
+    "toolbox_init": [
+      "<value name=\"fileIterrator\"><block type=\"text\"><field name=\"TEXT\">change this block</field></block></value>"
+    ],
+    "inputs": [
+      "fileIterrator"
+    ]
+  }
+}

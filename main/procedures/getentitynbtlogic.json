@@ -1,0 +1,21 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "NBTName",
+      "check": "String"
+    }
+  ],
+  "inputsInline": true,
+  "output": "Boolean",
+  "colour": "#607c99",
+  "mcreator": {
+    "toolbox_id": "base",
+    "toolbox_init": [
+      "<value name=\"NBTName\"><block type=\"text\"><field name=\"TEXT\">NBTName</field></block></value>"
+    ],
+    "inputs": [
+      "NBTName"
+    ]
+  }
+}

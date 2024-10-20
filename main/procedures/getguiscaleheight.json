@@ -1,0 +1,12 @@
+{
+  "args0": [
+  ],
+  "inputsInline": true,
+  "output": "Number",
+  "colour": "#7c0e0e",
+  "mcreator": {
+    "toolbox_id": "base",
+    "toolbox_init": [
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "line",
+      "check": "Number"
+    },
+    {
+      "type": "input_value",
+      "name": "posX",
+      "check": "Number"
+    },
+    {
+      "type": "input_value",
+      "name": "posY",
+      "check": "Number"
+    },
+    {
+      "type": "input_value",
+      "name": "posZ",
+      "check": "Number"
+    }
+  ],
+  "inputsInline": true,
+  "output": "String",
+  "colour": "#7c0e0e",
+  "mcreator": {
+    "toolbox_id": "base",
+    "toolbox_init": [
+      "<value name=\"line\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value>",
+      "<value name=\"posX\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value>",
+      "<value name=\"posY\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value>",
+      "<value name=\"posZ\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value>"
+    ],
+    "inputs": [
+      "line",
+      "posX",
+      "posY",
+      "posZ"
+    ],
+    "dependencies": [
+      {
+        "name": "world",
+        "type": "world"
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "blockIterrator",
+      "check": "MCItemBlock"
+    },
+    {
+      "type": "input_statement",
+      "name": "boucle"
+    },
+    {
+      "type": "input_value",
+      "name": "size",
+      "check": "Number"
+    }
+  ],
+  "inputsInline": true,
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": "#7c0e0e",
+  "mcreator": {
+    "toolbox_id": "base",
+    "toolbox_init": [
+      "<value name=\"blockIterrator\"><block type=\"mcitem_allblocks\"><field name=\"value\"></field></block></value>",
+      "<value name=\"size\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value>"
+    ],
+    "inputs": [
+      "blockIterrator",
+      "size"
+    ],
+    "statements": [
+      {
+        "name": "boucle",
+        "disable_local_variables": false
+      }
+    ]
+  }
+}
